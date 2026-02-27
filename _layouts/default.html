@@ -54,7 +54,19 @@
                             {% if site.playstore_link %}
                                 <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
                             {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            {% if site.testflight_link %}
+                                <a class="testFlightLink" href="{{ site.testflight_link }}">
+                                    <div class="testFlightButton">
+                                        <i class="fas fa-paper-plane testFlightIcon"></i>
+                                        <div class="testFlightText">
+                                            <span class="testFlightLabel">Join the Beta on</span>
+                                            <span class="testFlightTitle">TestFlight</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            {% else %}
+                                <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            {% endif %}
                         </div>
                     </div>
                     {% include features.html %}

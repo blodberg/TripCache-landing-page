@@ -374,6 +374,43 @@ nav > ul li a:active {
 	height: 75px;
 }
 
+.testFlightLink {
+	text-decoration: none;
+}
+
+.testFlightButton {
+	display: inline-flex;
+	align-items: center;
+	background-color: #000000;
+	border-radius: 14px;
+	padding: 0 20px;
+	height: 75px;
+	gap: 12px;
+}
+
+.testFlightIcon {
+	color: #ffffff;
+	font-size: 2.4rem;
+}
+
+.testFlightText {
+	display: flex;
+	flex-direction: column;
+}
+
+.testFlightLabel {
+	color: #ffffff;
+	font-size: 1.1rem;
+	line-height: 1.2;
+}
+
+.testFlightTitle {
+	color: #ffffff;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 1.3;
+}
+
 
 
 // iPhone Device Preview
