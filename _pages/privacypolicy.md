@@ -8,7 +8,7 @@ include_in_header: false
 January 2026
 
 # Privacy Policy
-We value your privacy. TripCache does not collect, transmit or distribute your data..
+We value your privacy. TripCache does not collect, transmit or distribute your data.
 
 
 <br>
