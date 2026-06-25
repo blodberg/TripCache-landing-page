@@ -27,5 +27,5 @@ Beyond the optional anonymous debugging information provided by Apple, TripCache
 <br>
 
 ## Contact Us
-If you have any questions or concerns about any of the above, please contact support@tripcache.app
+If you have any questions or concerns about any of the above, please contact <support@tripcache.app>
 
